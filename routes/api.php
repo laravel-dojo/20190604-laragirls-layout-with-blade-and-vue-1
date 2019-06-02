@@ -16,3 +16,16 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('comments', function () {
+    return [
+        [
+            'name' => 'User 1 (from API)',
+            'content' => 'User comment 1 (from API)',
+        ],
+        [
+            'name' => 'User 2 (from API)',
+            'content' => 'User comment 2 (from API)',
+        ],
+    ];
+});
