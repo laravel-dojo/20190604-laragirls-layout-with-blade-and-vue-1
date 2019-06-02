@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('posts', function () {
     return view('posts.index');
 });
+
+Route::get('posts/{id}', function ($id) {
+    return view('posts.show');
+});
