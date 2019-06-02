@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('page-title', '部落格')
+@section('page-title', '最新消息')
 
 @section('page-style')
     <link href="{{ asset('css/posts.css') }}" rel="stylesheet">
@@ -12,7 +12,7 @@
 
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4">
-        <h1 class="display-3">部落格</h1>
+        <h1 class="display-3">最新消息</h1>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
         <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
     </header>

@@ -7,21 +7,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item{{ (request()->is('/'))? ' active': '' }}">
                     <a class="nav-link" href="{{ url('/') }}">首頁
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item{{ (request()->is('news*'))? ' active': '' }}">
                     <a class="nav-link" href="{{ url('news') }}">最新消息</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item{{ (request()->is('posts*'))? ' active': '' }}">
                     <a class="nav-link" href="{{ url('posts') }}">部落格</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item{{ (request()->is('jobs*'))? ' active': '' }}">
                     <a class="nav-link" href="{{ url('jobs') }}">職缺徵才</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item{{ (request()->is('projects*'))? ' active': '' }}">
                     <a class="nav-link" href="{{ url('projects') }}">社群作品</a>
                 </li>
             </ul>

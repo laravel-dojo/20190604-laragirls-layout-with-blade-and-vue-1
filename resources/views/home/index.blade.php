@@ -17,9 +17,12 @@
         </div>
         <!-- /.col-lg-8 -->
         <div class="col-lg-5">
-            <h1 class="font-weight-light">Business Name or Tagline</h1>
-            <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-            <a class="btn btn-primary" href="#">Call to Action!</a>
+            <h1 class="font-weight-light">專屬女性的程式學習社群</h1>
+            <p>
+                嗨，我們是 LaraGirls！我們是台灣 Laravel 的女性學習社群，希望能夠促進 Laravel 的學習及資源整合，並推廣 Laravel 讓更多人熟知這個優雅的 PHP 框架 :)
+                目前 LaraGirls 將不定時舉辦讀書會與線下活動，想要得知第一手的消息，別忘記追蹤我們喔！
+            </p>
+            <a class="btn btn-primary" href="#">加入我們</a>
         </div>
         <!-- /.col-md-4 -->
     </div>
@@ -28,7 +31,10 @@
     <!-- Call to Action Well -->
     <div class="card text-white bg-secondary my-5 py-4 text-center">
         <div class="card-body">
-            <p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p>
+            <h2>LaraGirls 在做什麼？</h2>
+            <p class="text-white m-0">
+                我們是一群互相學習，一起探索 Laravel 的夥伴！人說「一群人走在一起不孤單」，加入 LaraGirls，你將會有意想不到的陪伴與收穫。
+            </p>
         </div>
     </div>
 
