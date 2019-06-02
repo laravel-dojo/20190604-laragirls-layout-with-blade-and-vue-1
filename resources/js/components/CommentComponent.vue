@@ -17,18 +17,14 @@
         name: "CommentComponent.vue",
         data() {
             return {
-                comments: [
-                    {
-                        "name": "User 1",
-                        "content": "user comment"
-                    },
-                    {
-                        "name": "User 2",
-                        "content": "user comment"
-                    }
-                ]
+                comments: []
             }
         },
+        created() {
+            this.axios.get('http://127.0.0.1:8000/api/comments').then(response => {
+                this.comments = response.data;
+            });
+        }
     }
 </script>
 
